@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Welcome to my Landing Page</h1>
+        <p>Explore the ultimate experience</p>
+    </header>
+    <section id="features">
+        <h2>WHAT'S YOUR PLAN &#x1F914;</h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>EXPLORE</h3>
+                <p>Explore everywhere and enjoy the beauty<br>designed to your life.</p>
+            </div>
+            <div class="box">
+                <h3>WHAT'S NEW</h3>
+                <p>Learn how one can acquire and gain knowledge &<br> help you achieve more.</p>
+            </div>
+            <div class="box">
+                <h3>WHAT DID YOU LEARN</h3>
+                <p>Why wait? Starting to get to know about new things <br>from our webpage today.</p>
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Choose a pricing plan that fits your needs.<BR>
+        Lets know your place that you are interested and you will <br> get a place that is necessary to match your taste<br>
+    There will be discouts as well. So let's Explore and enjoy</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission, vision, and the people .</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Impressive Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #716868;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    background: #ff2dbd;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.box {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+section {
+    padding: 2em 0;
+}
+footer {
+    background-color: #5b4c4c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+    @media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    } 
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: #5b4c4c;
+}
+.box {
+    border: 2px solid #fd3bd9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    width: calc(33% - 40px);
+    box-shadow: 0 4px 8px rgba(92, 85, 85, 0.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: #5b4c4c;
+}
+</style>
+</html>
